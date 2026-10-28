@@ -1,5 +1,6 @@
 from pydantic import BaseModel, ConfigDict, Field
 
+
 class CategoryDto(BaseModel):
     # from_attributes sallii luonnin suoraan SQLAlchemy-oliosta
     model_config = ConfigDict(from_attributes=True)
