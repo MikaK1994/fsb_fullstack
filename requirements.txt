@@ -10,6 +10,7 @@ psycopg2-binary
 python-dotenv
 # Hashataan
 passlib
+#
 argon2-cffi
 #
 pyjwt[crypto]
